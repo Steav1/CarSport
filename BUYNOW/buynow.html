@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Registration & Buy</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Registration</h2>
+        <input type="text" id="fullname" placeholder="Full Name">
+        <input type="number" id="age" placeholder="Age">
+        <input type="text" id="idcard" placeholder="ID Card Number">
+        <input type="text" id="phone" placeholder="Phone Number">
+        <input type="text" id="address" placeholder="Where you live">
+        <select id="model">
+            <option value="">Select Car Model</option>
+            <option value="Ford Mustang">Ford Mustang</option>
+            <option value="Tesla Cybertruck">Tesla Cybertruck</option>
+            <option value="Nissan GTR">Nissan GTR</option>
+            <option value="BMW M3">BMW </option>
+            <option value="BMW M3">Formula 1</option> 
+            <option value="BMW M3">Electric Car</option>
+        </select>
+        <button onclick="register()">Register</button>
+        <p style="text-align: center;">Are you sturck? <a href="https://t.me/isCHHAY" target="_blank">Contact Us</a></p>
+        <p class="error" id="error-msg"></p>
+        <p class="success" id="success-msg"></p>
+    </div>
+
+</body>
+
+</html>
